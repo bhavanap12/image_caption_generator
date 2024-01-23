@@ -40,5 +40,5 @@ Caption is generated once we click on Generate Caption
 ![Screenshot 2024-01-22 190909](https://github.com/bhavanap12/image_caption_generator/assets/23119773/601c0870-e735-41d6-a976-424ba106068d)
 
 
-Another Example
+
 ![Screenshot 2024-01-22 191012](https://github.com/bhavanap12/image_caption_generator/assets/23119773/bdc7be2d-94ad-4fa5-8cf1-ad29afadca42)
