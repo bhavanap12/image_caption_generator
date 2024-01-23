@@ -11,26 +11,17 @@ For the encoder part, the pretrained CNN extracts the feature vector from a give
 In the test phase, the encoder part is almost same as the training phase. The only difference is that batchnorm layer uses moving average and variance instead of mini-batch statistics. This can be easily implemented using encoder.eval(). For the decoder part, there is a significant difference between the training phase and the test phase. In the test phase, the LSTM decoder can't see the image description. To deal with this problem, the LSTM decoder feeds back the previosly generated word to the next input. This can be implemented using a for-loop.
 
 ## Usage
-1. Clone the repositories
-git clone https://github.com/pdollar/coco.git
-cd coco/PythonAPI/
-make
-python setup.py build
-python setup.py install
-cd ../../
-git clone https://github.com/yunjey/pytorch-tutorial.git
-cd pytorch-tutorial/tutorials/03-advanced/image_captioning/
-2. Download the dataset
+1. Download the dataset
 pip install -r requirements.txt
 chmod +x download.sh
 ./download.sh
-3. Preprocessing
+2. Preprocessing
 python build_vocab.py   
 python resize.py
-4. Train the model
+3. Train the model
 python train.py    
-5. Test the model
-python sample.py --image='png/example.png'
+4. Test the model
+python sample.py --image=<image-file-path>
 
 ## Pretrained model
 If you do not want to train the model from scratch, you can use a pretrained model. You can download the pretrained model here and the vocabulary file here. You should extract pretrained_model.zip to ./models/ and vocab.pkl to ./data/ using unzip command.
