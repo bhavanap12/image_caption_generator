@@ -28,7 +28,7 @@ If you do not want to train the model from scratch, you can use a pretrained mod
 
 ## Examples
 This is the home page
-![Screenshot 2024-01-22 191012](https://github.com/bhavanap12/image_caption_generator/assets/23119773/7dc7789a-5b26-495a-a66e-42212095dad1)
+![Screenshot 2024-01-22 190835](https://github.com/bhavanap12/image_caption_generator/assets/23119773/44d176ed-624e-4b78-82b8-14ad1e74760d)
 
 The image is displayed after it's uploaded
 ![Screenshot 2024-01-22 190909](https://github.com/bhavanap12/image_caption_generator/assets/23119773/601c0870-e735-41d6-a976-424ba106068d)
@@ -37,4 +37,4 @@ Caption is generated once we click on Generate Caption
 ![Screenshot 2024-01-22 190901](https://github.com/bhavanap12/image_caption_generator/assets/23119773/714e160f-9a9b-4382-bef2-d6ce7b3b8f43)
 
 Another example
-![Screenshot 2024-01-22 190835](https://github.com/bhavanap12/image_caption_generator/assets/23119773/44d176ed-624e-4b78-82b8-14ad1e74760d)
+![Screenshot 2024-01-22 191012](https://github.com/bhavanap12/image_caption_generator/assets/23119773/7dc7789a-5b26-495a-a66e-42212095dad1)
